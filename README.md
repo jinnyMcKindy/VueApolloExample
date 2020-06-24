@@ -1,6 +1,7 @@
 # Vue Apollo Example
 
-This is basic example of `Apollo Mutation` and `Apollo Query`.
+This is basic example of `Apollo Mutation` and `Apollo Query`
+
 You can fetch/add/update/paginate posts from [GraphQLZero Api](https://graphqlzero.almansi.me/api)
 
 ## Project setup
