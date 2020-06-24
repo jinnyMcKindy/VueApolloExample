@@ -77,11 +77,13 @@ export default {
             const opt = {...this.options}
             opt.paginate.page = page;
             this.options = opt;
+            this.$apollo.queries.posts.refetch()
         },
         onDone() {
             alert('saved')
             this.input.title = '';
             this.input.body = '';
+            this.$apollo.queries.posts.refetch()
         }
     }
 }
