@@ -1,0 +1,7 @@
+query ($postID: ID!) {
+  post(id: $postID) {
+    id
+    title
+    body
+  }
+}
